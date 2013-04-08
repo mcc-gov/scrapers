@@ -104,8 +104,7 @@ import os
 #f=open("kpis.txt", "w")
 #f.write("---")
 
-#path to your ITTs data saved as CSV
-os.chdir("ITTs")
+os.chdir("data/")
 for files in os.listdir("."):
     if files.endswith(".csv"):
         print files
