@@ -239,7 +239,7 @@ import os
 #f.write("---")
 
 #path to your KPIs data saved as CSV
-os.chdir("csv")
+os.chdir("data/")
 for files in os.listdir("."):
     if files.endswith(".csv"):
         parse_comments(files)
