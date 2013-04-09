@@ -41,7 +41,7 @@ for link in links:
 		href= err.attrib["href"]
 		name=err.cssselect("span")[0].text_content()
 		
-		print href, name
+		#print href, name
 
 
 	
