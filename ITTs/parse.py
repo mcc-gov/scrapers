@@ -26,6 +26,8 @@ def parse(filename):
         activity = "All Activities"
         subactivity = "N/A"
 
+        indicator_num = 0
+
         for (i, row) in enumerate(spamreader):
             #print row
             if i == 1:
@@ -61,7 +63,8 @@ def parse(filename):
 
                     #skipping short lines (probably unneccessary)
                     if True:
-                        indicator_id = uuid.uuid4()
+                        indicator_num = indicator_num+1
+                        indicator_id = country.upper()+"_"+project.upper()+"_"+str(indicator_num).zfill(4)
 
                         indicator_level = row[0]
                         indicator = row[1]
