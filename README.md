@@ -10,6 +10,7 @@ Features
 --------
 
 * Scrape list of all ERRs published by MCC
+* Scrape list of all QSRs published by MCC
 * Convert KPIs data from XLS/CSV into machine readable format for publication in Data Catalog
 * Convert ITTs data from XLS/CSV into machine readable format for publication in Data Catalog
 
