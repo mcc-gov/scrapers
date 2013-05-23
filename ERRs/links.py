@@ -7,15 +7,8 @@ from lxml.html import parse
 import lxml
 import json
 
-index_url="http://data.mcc.gov/raw/index.json"
-
-index=urllib2.urlopen(index_url).read()
-
-#index=json.dumps(json.loads(index), indent=4)
-
-index=json.loads(index)
-
-#print index
+import requests
+from datetime import datetime
 
 errs_url="http://www.mcc.gov/pages/activities/activity/economic-rates-of-return"
 
@@ -34,7 +27,6 @@ for c in compacts:
 	
 #print "Links #1"
 print links
-
 
 err_links=[]
 for link in links:
@@ -55,68 +47,66 @@ for link in links:
 	
 		href= err.attrib["href"]
 		name=err.cssselect("span")[0].text_content()
-		#name=name.replace(u'\u2019',"'")
-		
-		err_links.append({"href":href, "name":name})
+
+		if name.find(u"\u2019")>0:
+			country=name[0:name.find(u"\u2019")]
+		else:
+			country=""
+
+		name=name.replace(u'\u2019',"'")
+
+
+		r= requests.head(href)
+
+		identifier=href[href.find("/err/")+5:-4]
+
+		try:
+			d = datetime.strptime(r.headers["last-modified"], "%a, %d %b %Y %H:%M:%S %Z") 
+		except:
+			d=datetime.now()
+
+		updated=d.strftime('%Y-%m-%d')
+		#print updated, r.headers["last-modified"]		
+		err_links.append({"href":href, "name":name, "country":country, "identifier":identifier, "updated":updated})
 
 # index.json {"datasets":d;"categories":c}
 
-datasets=[]
 
-for dataset in index["datasets"]:
-	if dataset["group_id"]!=4:
-		dataset["metadatalocation"]=dataset["metadatalocation"].strip()
-		datasets.append(dataset)
-
-index["datasets"]=datasets
+print err_links
 
 print "Errs"
+
+metadata=[]	
+
+print "QSRs"
 offs=0
 for link in err_links:
-	print link["href"].encode('utf-8')
-	print link["name"].encode('utf-8')
-	print "---"
-	
-	index["datasets"].append({
-            "description": link["name"].encode('utf-8'), 
-            "name": link["name"].encode('utf-8'), 
-            "location": link["href"].encode('utf-8'), 
-            "formats": ".xls", 
-            "group_id": 4, 
-            "type": "documents", 
-            "id": 9999+offs, 
-        }) 
+	dataset={
+		"title": link["name"],
+		"description": link["name"],
+		"theme":"Economic Rate of Returns",
+		"keyword": "return rate, economy, err, analysis, compact, human-readable, "+link["country"].lower(),
+		"modified": link["updated"],
+		"publisher": "Millennium Challenge Corporation",
+		"person": "Open Data Initiative",
+		"mbox": "opendata@mcc.gov",
+		"identifier": link["identifier"],
+		"accessLevel": "Public",
+		"distribution": [
+			{
+			"accessURL": link["href"],
+			"format": "xls"
+			}
+		]
+    }
+
+	metadata.append(dataset)
 
 	offs=offs+1
 	
+print metadata
 
-
-"""
-        {
-            "description": "Senegal's Irrigation and Water Resources Management Project Delta Irrigation Activit", 
-            "name": "Senegal's Irrigation and Water Resources Management Project Delta Irrigation Activit", 
-            "location": "http://www.mcc.gov/documents/err/mcc-err-senegal-delta-irrigation.xls", 
-            "formats": ".xls", 
-            "group_id": 4, 
-            "type": "documents", 
-            "id": 1221, 
-        }, 
-
-        {
-            "metadatalocation": "http://www.mcc.gov/documents/err/mcc-err-senegal-delta-irrigation.html                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ", 
-            "description": "Senegal's Irrigation and Water Resources Management Project Delta Irrigation Activit", 
-            "name": "Senegal's Irrigation and Water Resources Management Project Delta Irrigation Activit", 
-            "location": "http://www.mcc.gov/documents/err/mcc-err-senegal-delta-irrigation.xls", 
-            "formats": ".xls", 
-            "group_id": 4, 
-            "type": "documents", 
-            "id": 1221, 
-            "group_location": "/null"
-        }, 
-
-"""
-
-f=open("index.json","w")
-f.write(json.dumps(index,indent=4))
+f=open("errs.json","w")
+f.write(json.dumps(metadata,indent=4))
 f.close()
 	

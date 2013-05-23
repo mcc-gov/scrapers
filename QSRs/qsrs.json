@@ -1,0 +1,488 @@
+[
+    {
+        "description": "Armenia Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, armenia", 
+        "title": "Armenia Compact Quarterly Status Report", 
+        "modified": "2012-11-27", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2012002101602-armenia.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-armenia", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Benin Compact II Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, benin", 
+        "title": "Benin Compact II Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013-002-1258-01-benin-ii.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-2-benin", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Benin Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, benin", 
+        "title": "Benin Compact Quarterly Status Report", 
+        "modified": "2012-07-17", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2012002101702-benin.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-benin", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Burkina Faso Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, burkina faso", 
+        "title": "Burkina Faso Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002125901-burkina-faso.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-burkina faso", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Cape Verde Compact I Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, cape verde", 
+        "title": "Cape Verde Compact I Quarterly Status Report", 
+        "modified": "2012-10-04", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2012002101901-cape-verde-i.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-1-cape verde", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Cape Verde Compact II Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, cape verde", 
+        "title": "Cape Verde Compact II Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002126001-cape-verde-ii.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-2-cape verde", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "El Salvador Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, el salvador", 
+        "title": "El Salvador Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002126101-el-salvador.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-el salvador", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Georgia Compact II Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, georgia", 
+        "title": "Georgia Compact II Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/agreements/qsr-2013002126201-georgia-ii.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-2-georgia", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Georgia Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, georgia", 
+        "title": "Georgia Compact Quarterly Status Report", 
+        "modified": "2011-10-28", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2010002030605-georgia.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-georgia", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Ghana Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, ghana", 
+        "title": "Ghana Compact Quarterly Status Report", 
+        "modified": "2012-11-27", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2012002102402-ghana.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-ghana", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Honduras Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, honduras", 
+        "title": "Honduras Compact Quarterly Status Report", 
+        "modified": "2011-12-16", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2010002030906-honduras.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-honduras", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Indonesia Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, indonesia", 
+        "title": "Indonesia Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002126401-indonesia.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-indonesia", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Jordan Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, jordan", 
+        "title": "Jordan Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002126501-jordan.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-jordan", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Lesotho Compact Quarterly  Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, lesotho", 
+        "title": "Lesotho Compact Quarterly  Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002126601-lesotho.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-lesotho", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Malawi Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, malawi", 
+        "title": "Malawi Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002126701-malawi.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-malawi", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Mali Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, mali", 
+        "title": "Mali Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002126801-mali.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-mali", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Moldova Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, moldova", 
+        "title": "Moldova Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002126901-moldova.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-moldova", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Mongolia Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, mongolia", 
+        "title": "Mongolia Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002127001-mongolia.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-mongolia", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Morocco Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, morocco", 
+        "title": "Morocco Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002127101-morocco.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-morocco", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Mozambique Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, mozambique", 
+        "title": "Mozambique Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002127201-mozambique.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-mozambique", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Namibia Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, namibia", 
+        "title": "Namibia Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002127301-namibia.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-namibia", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Nicaragua Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, nicaragua", 
+        "title": "Nicaragua Compact Quarterly Status Report", 
+        "modified": "2011-12-16", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2010002032106-nicaragua.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-nicaragua", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Philippines Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, philippines", 
+        "title": "Philippines Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2012002103704-philippines.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-philippines", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Senegal Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, senegal", 
+        "title": "Senegal Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002127501-senegal.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-senegal", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Tanzania Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, tanzania", 
+        "title": "Tanzania Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002127601-tanzania.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-tanzania", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Vanuatu Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, vanuatu", 
+        "title": "Vanuatu Compact Quarterly Status Report", 
+        "modified": "2011-12-16", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2010002032506-vanuatu.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-vanuatu", 
+        "mbox": "opendata@mcc.gov"
+    }, 
+    {
+        "description": "Zambia Compact Quarterly Status Report", 
+        "accessLevel": "Public", 
+        "publisher": "Millennium Challenge Corporation", 
+        "keyword": "quarterly, status, report, compact, human-readable, zambia", 
+        "title": "Zambia Compact Quarterly Status Report", 
+        "modified": "2013-03-08", 
+        "person": "Open Data Initiative", 
+        "theme": "Quarterly Status Reports", 
+        "distribution": [
+            {
+                "accessURL": "http://www.mcc.gov/documents/reports/qsr-2013002127701-zambia.pdf", 
+                "format": "pdf"
+            }
+        ], 
+        "identifier": "qsr-compact-zambia", 
+        "mbox": "opendata@mcc.gov"
+    }
+]
